@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 import './App.css'
 import Card from './Components/Card'
 
@@ -10,7 +8,6 @@ function App() {
     <div className='App'>
       <h1>Carga de estudiantes</h1>
       <form>
-        <input type="text" /><input type="text" /><input type="text" />
       </form>
     <Card/>
     </div>
