@@ -10,7 +10,7 @@ function App() {
     <div className='App'>
       <h1>Carga de estudiantes</h1>
       <form>
-        
+        <input type="text" /><input type="text" /><input type="text" />
       </form>
     <Card/>
     </div>
