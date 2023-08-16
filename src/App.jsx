@@ -39,7 +39,7 @@ function App() {
         <input style={{marginRight: 20}} onChange={(e)=> setUsuario({...usuario, apellido: e.target.value})}/>
         <label style={{marginRight: 20}}>Contraseña</label>
         <input type='password' style={{marginRight: 20}} onChange={(e)=> setUsuario({...usuario, contraseña: e.target.value})}/>
-        <button>Enviar</button>
+        <button className='boton'>Enviar</button>
       </form>
     <Card usuario={usuario} mostrar={mostrar} error={error}/>
     </div>
